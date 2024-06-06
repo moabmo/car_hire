@@ -1,0 +1,28 @@
+.hero {
+  background: url('https://image.kkday.com/v2/image/get/w_1900%2Cc_fit/s1.kkday.com/product_155873/20231110070016_ZSZKT/png') no-repeat center center/cover;
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.featured-cars, .testimonials {
+  margin-top: 20px;
+}
+
+.car-list, .testimonial-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.car-item, .testimonial-item {
+  background: #e9ecef;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 4px;
+  width: 45%;
+}
+
+.testimonial-item {
+  font-style: italic;
+}
